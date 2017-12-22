@@ -1,0 +1,29 @@
+{
+  "name": "ccxt-test",
+  "version": "1.0.0",
+  "description": "Test task on upwork",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon --exec 'node --experimental-modules' server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton T.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ccxt": "^1.10.437",
+    "compose-middleware": "^3.0.0",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mysql": "^2.15.0",
+    "node-schedule": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.14.1"
+  }
+}

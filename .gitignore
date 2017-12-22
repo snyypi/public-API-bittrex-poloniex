@@ -1,0 +1,5 @@
+**/*.tpl
+TODO.*
+node_modules
+tmp
+**/configs/connections.mjs
